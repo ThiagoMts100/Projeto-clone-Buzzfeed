@@ -21,7 +21,9 @@ export class QuizzComponent implements OnInit {
 
   finished:boolean = false
 
+  photo:string = ""
 
+  bgc:string = ""
   constructor() { }
 
   ngOnInit(): void {
@@ -34,8 +36,7 @@ export class QuizzComponent implements OnInit {
 
   this.questionIndex = 0
   this.questionMaxIndex = this.questions.length
-  console.log(this.questionIndex)
-  console.log(this.questionMaxIndex)
+
   }
 
   playerChoose(value:string){
@@ -45,16 +46,32 @@ export class QuizzComponent implements OnInit {
   }
 
    async nexStep(){
-    this.questionIndex+=1
+    this.questionIndex += 1
+
     if(this.questionMaxIndex > this.questionIndex){
       this.quiestionSelected = this.questions[this.questionIndex]
-    }else{
+
+    } else {
       const finalAnswer:string = await this.checkResult(this.answers)
         this.finished = true
         this.answersSelected = quizz_questions.results[finalAnswer as keyof typeof quizz_questions.results]
 
-    }
+
+      if(finalAnswer === "A"){
+
+        this.photo = "assets/imgs/forte e corajoso.jpg"
+        this.bgc = "A"
+        document.body.classList.toggle('cor')
+
+      }else if(finalAnswer === "B"){
+
+        this.photo = "assets/imgs/medo.jpg"
+        this.bgc = "B"
+        document.body.classList.toggle('med')
+      }
   }
+}
+
     async checkResult(answers:string[]){
       const result = answers.reduce((previous, current, i, arr)=>{
         if(
@@ -70,4 +87,13 @@ export class QuizzComponent implements OnInit {
       return result
     }
 
+    restartQuizz() {
+      this.finished = false;
+      this.answers = [];
+      this.questionIndex = 0;
+      this.quiestionSelected = this.questions[this.questionIndex];
+      this.photo = "";
+      this.bgc = "";
+      document.body.classList.remove('med', 'cor');
+    }
 }

@@ -2,10 +2,33 @@
   padding: 0;
   margin: 0;
   border: 0;
+  text-align: center;
   box-sizing: border-box;
-  color: antiquewhite;
+  color: rgb(255, 255, 255);
 }
 
 body{
   background-color: #1f1147;
+  transition: 5s;
+}
+
+
+.med {
+  background-color: #0d330b;
+}
+
+
+
+.cor {
+  background-color: #05162e;
+}
+
+@media screen and (min-width:420px) {
+
+
+}
+
+
+@media screen and (max-width:1420px) {
+
 }

@@ -1,55 +1,117 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Você se encaixa em qual perfil?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Você é:",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Introvertido", "alias":"A"},
+        {"id": 2, "name":"Extrovertido", "alias":"B"}
+        
+        
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Se você visse um amigo seu sendo atacado o que você faria?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Choro e me escondo", "alias":"A"},
+        {"id": 2, "name":"Chamo alguém para ajudar", "alias":"A"},
+        {"id": 3, "name":"Distraio ele e depois salvo meu amigo", "alias":"B"},
+        {"id": 4, "name":"Enfrento com coragem e derteminação", "alias":"B"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Que comida você mais gosta?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Cogumelo", "alias":"B"},
+        {"id": 2, "name":"Fases", "alias":"A"},
+        {"id": 3, "name":"Bolo", "alias":"A"},
+        {"id": 4, "name":"Inimigos", "alias":"B"},
+        {"id": 5, "name":"Pizza", "alias":"A"},
+        {"id": 6, "name":"Frutas", "alias":"B"},
+        {"id": 7, "name":"Macarrão", "alias":"B"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual é seu passatempo?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Comer", "alias":"A"},
+        {"id": 2, "name":"Tocar Instrumento musical", "alias":"B"},
+        {"id": 3, "name":"Construir coisas", "alias":"A"},
+        {"id": 4, "name":"Ler livros", "alias":"B"},
+        {"id": 5, "name":"Praticar esportes", "alias":"B"}
       ]
+      
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Qual é o jogo do mario que você mas gosta?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Super Mario Bros", "alias":"A"},
+        {"id": 2, "name":"Super Mario RPG", "alias":"B"},
+        {"id": 3, "name":"Super Mario World", "alias":"A"},
+        {"id": 4, "name":"Hotel Mario", "alias":"B"},
+        {"id": 5, "name":"Super Mario Maker", "alias":"A"},
+        {"id": 6, "name":"Super Mario Bros 2 (USA)", "alias":"B"},
+        {"id": 7, "name":"Paper Mario", "alias":"A"},
+        {"id": 8, "name":"Super Mario Wonder", "alias":"B"}
+
+      ]
+    },
+    {
+      "id":6,
+      "question": "Qual é sua cor favorita?",
+      "options":[
+        {"id": 1, "name":"Amarelo", "alias":"A"},
+        {"id": 2, "name":"Rosa", "alias":"B"},
+        {"id": 3, "name":"Preto", "alias":"A"},
+        {"id": 4, "name":"Branco", "alias":"B"},
+        {"id": 5, "name":"Azul", "alias":"A"},
+        {"id": 6, "name":"Vermelho", "alias":"B"},
+        {"id": 7, "name":"Roxo", "alias":"A"},
+        {"id": 8, "name":"Verde", "alias":"B"}
+
+      ]
+    },
+    {
+      "id":7,
+      "question": "Você prefere ser do…",
+      "options":[
+        {"id": 1, "name":"Bem", "alias":"A"},
+        {"id": 2, "name":"Anti-Heroi", "alias":"B"},
+        {"id": 3, "name":"Mal", "alias":"A"}
+        
+      ]
+    },
+    {
+      "id":8,
+      "question": "Você é …",
+      "options":[
+        {"id": 1, "name":"Devagar", "alias":"A"},
+        {"id": 2, "name":"Rápido", "alias":"B"},
+        {"id": 3, "name":"Tartaruga", "alias":"A"},
+        {"id": 4, "name":"Medio", "alias":"A"}
+        
+      ]
+    },
+    {
+      "id":9,
+      "question": "Qual tipo de filme ou jogo você mais gosta?",
+      "options":[
+        {"id": 1, "name":"Aventura e Ação", "alias":"A"},
+        {"id": 2, "name":"Hair Maker", "alias":"B"},
+        {"id": 3, "name":"Explosão", "alias":"A"},
+        {"id": 4, "name":"Level Maker", "alias":"B"},
+        {"id": 5, "name":"Luta", "alias":"A"}
+        
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "B": "Você é Medroso mas não abandona os seus amigos",
+    "A": "Você é corajoso e derterminado"
   }
 }

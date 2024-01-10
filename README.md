@@ -1,5 +1,12 @@
 # ProjetoBuzzfeed
 
+![Alt text](image-2.png)
+![Alt text](image-1.png)
+
+![Alt text](image.png)
+
+Criando um clone do Buzzfeed 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
 ## Development server

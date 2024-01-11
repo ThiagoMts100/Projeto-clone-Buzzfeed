@@ -15,10 +15,10 @@
       "id":2,
       "question": "Se você visse um amigo seu sendo atacado o que você faria?",
       "options":[
-        {"id": 1, "name":"Choro e me escondo", "alias":"A"},
+        {"id": 1, "name":"Choro e me escondo", "alias":"B"},
         {"id": 2, "name":"Chamo alguém para ajudar", "alias":"A"},
         {"id": 3, "name":"Distraio ele e depois salvo meu amigo", "alias":"B"},
-        {"id": 4, "name":"Enfrento com coragem e derteminação", "alias":"B"}
+        {"id": 4, "name":"Enfrento com coragem e derteminação", "alias":"A"}
       ]
     },
     {
@@ -31,7 +31,7 @@
         {"id": 4, "name":"Inimigos", "alias":"B"},
         {"id": 5, "name":"Pizza", "alias":"A"},
         {"id": 6, "name":"Frutas", "alias":"B"},
-        {"id": 7, "name":"Macarrão", "alias":"B"}
+        {"id": 7, "name":"Macarrão", "alias":"A"}
       ]
     },
     {
@@ -41,7 +41,7 @@
         {"id": 1, "name":"Comer", "alias":"A"},
         {"id": 2, "name":"Tocar Instrumento musical", "alias":"B"},
         {"id": 3, "name":"Construir coisas", "alias":"A"},
-        {"id": 4, "name":"Ler livros", "alias":"B"},
+        {"id": 4, "name":"Ler livros", "alias":"A"},
         {"id": 5, "name":"Praticar esportes", "alias":"B"}
       ]
       
@@ -90,9 +90,9 @@
       "id":8,
       "question": "Você é …",
       "options":[
-        {"id": 1, "name":"Devagar", "alias":"A"},
-        {"id": 2, "name":"Rápido", "alias":"B"},
-        {"id": 3, "name":"Tartaruga", "alias":"A"},
+        {"id": 1, "name":"Devagar", "alias":"B"},
+        {"id": 2, "name":"Rápido", "alias":"A"},
+        {"id": 3, "name":"Tartaruga", "alias":"B"},
         {"id": 4, "name":"Medio", "alias":"A"}
         
       ]
